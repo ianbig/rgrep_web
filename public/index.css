@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    font-size: 70%;
+}
+
+h1 {
+    align-self: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+
+#go{
+    display: block;
+    width: 70%;
+    padding: 1em;
+    border-radius: 40px;
+    border: 2px solid;
+    font-size: 2em;
+}
+
+#go:focus {
+    outline: none;
+}
